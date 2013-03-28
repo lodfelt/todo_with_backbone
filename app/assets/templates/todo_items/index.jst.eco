@@ -1,0 +1,8 @@
+<h1>Todo List</h1>
+<form id="new_todo_item">
+  <input type="text" name="name" id="new_todo_item_name">
+  <input type="submit" value="Add">
+</form>
+<ul id="todo-items">
+</ul>
+<button type="button" id="clear-todo-items">Clear done</button>

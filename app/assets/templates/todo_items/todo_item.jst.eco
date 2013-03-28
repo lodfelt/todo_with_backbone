@@ -1,0 +1,2 @@
+<input type="checkbox" name="todo_item[done]" value="Done" <% if @item.get('done'): %>checked="checked"<%end%>>
+<%= @item.get('name') %>
